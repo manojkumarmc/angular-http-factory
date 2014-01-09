@@ -1,4 +1,4 @@
-angular-node-seed
+angular-http-factory
 =================
 
-angular-node-seed
+This is the basic implementation to make a rest call to the server via $q.promise from a factory
