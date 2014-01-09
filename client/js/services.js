@@ -13,7 +13,6 @@ myApp.factory('itemService', ['$http', '$q', function($http, $q){
             })
 
             return deferred.promise;
-
         }
     }
 }])
