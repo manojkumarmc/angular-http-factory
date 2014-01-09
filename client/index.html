@@ -9,6 +9,9 @@
 <body ng-app="myApp">
 
     <div ng-controller="MyCtrl">
+        <div ng-show="error" class="alert-box">
+            {{error}}
+        </div>
         <input class="button" value="Get Items" ng-click="getIt()"/>
         <div ng-repeat="item in items" class="panel">
             {{item.name}}
