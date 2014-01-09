@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>AngularJs template</title>
+    <link rel="stylesheet" type="text/css" href="css/foundation.css" media="screen" />
+</head>
+
+<body ng-app="myApp">
+
+    <div ng-controller="MyCtrl">
+        <input class="button" value="Get Items" ng-click="getIt()"/>
+        <div ng-repeat="item in items" class="panel">
+            {{item.name}}
+        </div>
+    </div>
+
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/angular.min.js"></script>
+
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/controllers.js"></script>
+    <script type="text/javascript" src="js/directives.js"></script>
+    <script type="text/javascript" src="js/services.js"></script>
+</body>
+</html>
