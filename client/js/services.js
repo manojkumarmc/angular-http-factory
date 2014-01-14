@@ -16,3 +16,7 @@ myApp.factory('itemService', ['$http', '$q', function($http, $q){
         }
     }
 }])
+
+myApp.factory('empService',['Restangular', function(Restangular) {
+    return Restangular
+}])

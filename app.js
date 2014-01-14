@@ -36,6 +36,19 @@ app.get('/items/list', function(req, res) {
     )
 })
 
+app.get('/employee/:empid', function(req, res) {
+    res.send(
+        [
+            {name: "emp1"},
+            {name: "emp2"},
+            {name: "emp3"},
+            {name: "emp4"},
+            {name: "emp5"}
+        ]
+    )
+})
+
+
 //app.get('/tasks', task.list)
 
 
